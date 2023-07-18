@@ -2,14 +2,16 @@
 
 :root{
     --primary-color:#FFF;;
-    --seconary-color: #FF42A5;
+    --secondary-color: #FF42A5;
     --font-family : 'Work Sans', sans-serif;
-    font-size: 20px;
+    --font-size: 20px;
 }
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+header{
+    background-color: #FFF;
 
 }
 .navbar{
@@ -19,8 +21,8 @@ body{
     justify-content: space-between;
     align-items: center;
     min-height: 50px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 8px 30px 10px rgba(0, 0, 0, 0.09);
+   
 }
 .logo-section{
     display: flex;
@@ -42,7 +44,7 @@ body{
     line-height: normal;
 }
 .logo-title span{
-    color: var(--seconary-color); ;
+    color: var(--secondary-color); ;
 
 }
 
@@ -76,3 +78,173 @@ body{
 .follow-button .fa-youtube {
     color: #F61C0D;
 }
+/* ---------------------nav section ends----------------------------- */
+/*------------------------------ banner section started --------------------------*/
+.banner{
+    margin: 0;
+    width:100%;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    height: 80svh;
+}
+.banner-content{
+    width:50%;
+    margin: 0px;
+    background-image: url(images/Group\ 14.png);
+    height: 80svh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-left: 40px;
+    text-align: left;
+    
+
+}
+.banner-content h3{
+
+    color: #0B0223;
+    margin-bottom: 0px;
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+     ;
+    
+}
+.gradient-text{
+   margin-top: 0px;
+   margin-bottom: 0px;
+    font-family: var(--font-family);
+    font-size: 60px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.banner-content p{
+    margin:0px;
+    font-family: Work Sans;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 5px;
+ }
+
+.banner-img{
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.banner-img img{
+    width:80%;
+    height:auto;
+
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 48px;
+    background-color:var(--secondary-color); 
+   color:var(--primary-color);
+   margin:5px;
+   font-family: var(--font-family);
+   font-size: 16px;
+ 
+
+}
+
+/*------------------------------ banner section ended --------------------------*/
+/*------------------------------ we are gamer section started --------------------------*/
+.we-are-gamer{
+    background-color: rgba(241, 68, 174, 0.03);
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.gamer-img{
+    width: 60%;
+    margin: auto 0px;
+
+}
+.gamer-img img{
+    width: 90%;
+    /* margin: auto 0px; */
+  
+}
+.gamer-content{
+    width:40%;
+    margin: auto 0px;
+    text-align: end;
+    padding-right:5px ;
+
+}
+.gamer-content h1{
+    font-size: 40px;
+}
+
+
+/*------------------------------ we are gamer section ended --------------------------*/
+/*------------------------------ online-games-section started --------------------------*/
+.online-games-content{
+    width: 100%;
+    text-align: center;
+}
+.online-games-content h1{
+    font-family: var(--font-family);
+
+}
+.online-games-content h1 span{
+     font-family: var(--font-family);
+     text-transform: uppercase;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+
+}
+.online-games-img-section{
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.games-img {
+    position: relative;
+    
+}
+
+
+.overlay {
+   
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0,0.9);
+  }
+  .games-img:hover .overlay{
+    opacity: 1;
+
+  }
