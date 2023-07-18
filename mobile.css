@@ -1,0 +1,15 @@
+@media screen and (max-width:576px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-items ul{
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        
+    }
+    .nav-items ul li{
+        margin: 20px;
+    }
+  
+}
