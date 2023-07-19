@@ -32,6 +32,10 @@
     .banner-img img{
         padding: 10px auto;
     }
+    .banner-content-area{
+        width:100%;
+    
+    }
     .banner-content{
         
         width:90%;
