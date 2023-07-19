@@ -368,8 +368,8 @@ header{
    background-color:rgba(255, 66, 165, 0.03) ; 
    width:100%;
    display: flex;
-   padding-top: 20px;
-   padding-bottom: 20px; 
+   padding-top: 40px;
+   padding-bottom: 40px; 
     justify-content: center;
     align-items: center;
 }
@@ -394,6 +394,7 @@ header{
      margin:10px 15px;
      padding: 10px 5px;
      box-sizing: border-box;
+     border: 3px solid transparent;
      transition: .3s ease-out;
 }
 .game-types img{
@@ -402,15 +403,23 @@ header{
 .game-types:hover{
     border: 3px solid var(--secondary-color);
 }
+
+/* footer starts */
 footer{
     background-color: #0B0223;
     width: 100%;
+}
+.footer-logo .logo-title  h2{
+   
+    color: #FFF;
+
 }
 .footer-item{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px auto;
 }
 footer .footer-item li{
     margin: 0 10px;
@@ -425,7 +434,7 @@ line-height: normal;
 
 }
 .social-icon{
-    margin-top: 20px;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -435,4 +444,36 @@ line-height: normal;
     max-width: 40px;
     max-height: 26px;
     margin: 15px 12px;
+}
+.quick-access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto 10px auto;
+
+}
+.quick-access li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    margin: 15px;
+    line-height: normal;
+    font-family: var(--font-family);
+}
+ .copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.copyright p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--font-family);
+
 }
