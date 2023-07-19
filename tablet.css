@@ -55,9 +55,17 @@
         position: relative;
         
     }
+    .games-img-box{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
     .overlay {
         position: absolute;
-        left: 39px;
+      
     }
     .play-instant-section{
         width:100%;
@@ -117,5 +125,14 @@
     .game-types h3{
         
        font-size:12px;
+    }
+
+    .social-icon {
+        width: 45%;
+    }
+    .social-icon svg{
+        max-width: 40px;
+        max-height: 26px;
+        margin: 15px;
     }
 } 
