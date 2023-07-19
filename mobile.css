@@ -75,7 +75,9 @@
         margin: 0px;
         text-align: center;
     }
-   
+    .online-games-content{
+        width: 90%;
+    }
 
     .online-games-img-section{
         flex-direction: column;
