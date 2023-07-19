@@ -136,9 +136,6 @@ header{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-    
-    
-    
 }
 .gradient-text {
    margin: 0px;
@@ -288,16 +285,12 @@ header{
 .games-img-box img{
     width: 280px;
     height: 350px;
-   
-   
-  
-   
-   
+}
+.games-img-box p{
+    text-align: left;
 
 }
 .overlay {
-   
-  
     position: absolute;
     top:0;
     width: 280px;
