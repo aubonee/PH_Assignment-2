@@ -31,6 +31,13 @@ header{
     align-items: center;
     
 }
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+
+}
 .logo-img img{
     
     width:50px;
