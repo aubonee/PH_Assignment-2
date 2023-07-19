@@ -382,20 +382,57 @@ header{
 
 }
 .game-types{
-    width: 200px;
-    height: 60px;
+    /* width: 200px;
+    height: 60px; */
+    min-width: 130px;
+    height:45px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 50px;
     background-color: #FFF;
      margin:10px 15px;
+     padding: 10px 5px;
      box-sizing: border-box;
      transition: .3s ease-out;
 }
 .game-types img{
-    width: 25%;
+    width: 15%;
 }
 .game-types:hover{
     border: 3px solid var(--secondary-color);
+}
+footer{
+    background-color: #0B0223;
+    width: 100%;
+}
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .footer-item li{
+    margin: 0 10px;
+    list-style: none;
+    color: #FFF;
+text-align: center;
+font-family: var(--font-family);
+font-size: 18px;
+font-style: normal;
+margin: 15px 12px;
+line-height: normal;
+
+}
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon svg{
+    max-width: 40px;
+    max-height: 26px;
+    margin: 15px 12px;
 }

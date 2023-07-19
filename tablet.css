@@ -1,4 +1,4 @@
-@media screen and (min-width:576px) and (max-width:920px){
+@media screen and (min-width:576px) and (max-width:992px){
     
     header{
         height: max-content;
@@ -106,17 +106,16 @@
         width:100%;
     }
     .game-types{
-        width: 180px;
-        height: 50px;
-      
+       padding: 10px 5px;
         margin:10px 5px;
+        min-width: 130px;
       
     }
-    /* .game-types img{
+    .game-types img{
         width: 25%;
     }
     .game-types h3{
-        width: 75%;
-        width: 12px;
-    } */
+        
+       font-size:12px;
+    }
 } 
