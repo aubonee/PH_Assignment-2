@@ -104,7 +104,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    padding-left: 40px;
+   
     text-align: left;
     
 
@@ -123,8 +123,8 @@ header{
     
 }
 .gradient-text{
-   margin-top: 0px;
-   margin-bottom: 0px;
+   margin: 0px;
+ padding: 0px;
     font-family: var(--font-family);
     font-size: 60px;
     text-transform: uppercase;
@@ -138,8 +138,8 @@ header{
     font-family: Work Sans;
     font-size: 18px;
     text-align: left;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
+    margin-top:0px;
     line-height: 5px;
  }
 
@@ -161,12 +161,17 @@ header{
     padding: 10px 20px;
     border: none;
     border-radius: 48px;
+    color:var(--primary-color);
+    margin:5px;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.btn-megenta{
     background-color:var(--secondary-color); 
-   color:var(--primary-color);
-   margin:5px;
-   font-family: var(--font-family);
-   font-size: 16px;
- 
+
+}
+.btn-blue{
+    background-color:#4EC5F7;
 
 }
 
@@ -204,12 +209,24 @@ header{
 
 /*------------------------------ we are gamer section ended --------------------------*/
 /*------------------------------ online-games-section started --------------------------*/
+
+
+.online-games{
+    width:100%;
+  
+   
+}
 .online-games-content{
     width: 100%;
     text-align: center;
+    height:max-content;
+    margin: 40px auto;
+   
 }
 .online-games-content h1{
     font-family: var(--font-family);
+    margin-bottom:5px;
+
 
 }
 .online-games-content h1 span{
@@ -221,30 +238,57 @@ header{
      color: transparent;
 
 }
+.online-games-content> p{
+    padding: 0px;
+    margin-top:0px;
+
+}
 .online-games-img-section{
-    width:100%;
-    align-items: center;
+    margin: 0 auto;
+    width:80%;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+
+
 }
-.games-img {
+.games-img-box {
     position: relative;
-    
 }
+.games-img-box img{
+    width:300px;
+    margin-right: 10px ;
+   
+   
 
-
+}
 .overlay {
    
+  
     position: absolute;
     top:0;
-    left:0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
+  
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #8758F1;
+    border: 2px solid var(--secondary-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
     transition: .5s ease;
-    background-color: rgba(0, 0, 0,0.9);
+    background-color: rgba(0, 0, 0,0.8);
   }
-  .games-img:hover .overlay{
+ 
+  .overlay p{
+    color: #FF42A5;
+    text-align: center;
+ 
+ }
+  .games-img-box:hover  .overlay {
     opacity: 1;
+}
 
-  }
+/*------------------------------ online-games-section ended --------------------------*/

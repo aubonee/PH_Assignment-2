@@ -19,7 +19,8 @@
   
     .banner{
         flex-direction: column-reverse;
-        height: max-content;
+        /* height: max-content; */
+        height: 100%;
         margin: 10px auto;
         width: 100%;
     }
@@ -39,4 +40,24 @@
         padding: 20px auto;
     }
     
+
+    .online-games-img-section{
+        flex-direction: column;
+       width: 100%;
+        
+    }
+    .games-img-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay {
+   
+  
+        position: absolute;
+        top:0;
+       left:57px;
+    }
 }
