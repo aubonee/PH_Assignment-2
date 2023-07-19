@@ -2,8 +2,8 @@
     
     header{
         height: max-content;
-
-    }.navbar{
+    }
+    /* }.navbar{
         flex-direction: column;
         height: max-content;
     }
@@ -15,7 +15,7 @@
     }
     .nav-items ul li{
         margin: 20px;
-    }
+    } */
   
     .banner{
         flex-direction: column-reverse;
@@ -40,6 +40,33 @@
         padding: 20px auto;
     }
     
+    .we-are-gamer{
+        background-color: transparent;
+        flex-direction: column;
+        width: 100%;
+    }
+    .gamer-content{
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+    .gamer-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;justify-content: center;
+        align-items: center;
+        margin: 0px;
+        text-align: center;
+    }
+    .gamer-img img{
+        width: 100%;
+        
+      
+    }
 
     .online-games-img-section{
         flex-direction: column;
