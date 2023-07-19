@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,500;0,700;1,200;1,300;1,500&display=swap');
 
 :root{
     --primary-color:#FFF;;
@@ -252,7 +253,7 @@ header{
 
 
 }
-.games-img-box {
+.games-img-box{
     position: relative;
 }
 .games-img-box img{
@@ -267,7 +268,6 @@ header{
   
     position: absolute;
     top:0;
-  
     width: 300px;
     height: 350px;
     border-radius: 15px;
@@ -277,7 +277,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0.5;
+    opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 0, 0,0.8);
   }
@@ -292,3 +292,82 @@ header{
 }
 
 /*------------------------------ online-games-section ended --------------------------*/
+/*------------------------------play-instant-section started --------------------------*/
+.play-instant-section{
+   margin-top: 150px;
+    width:100%;
+    display:flex;
+    justify-content: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+.play-instant{
+   
+    width:80%;
+    display:flex;
+    justify-content: right;
+
+}
+.play-instant-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding-right: 20px;
+
+}
+.play-instant-content h1{
+   width: 300px;
+   text-align: right;
+   font-size: 48px;
+
+}
+.play-instant-content p{
+    width: 300px;
+    font-size: 18px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Work Sans', sans-serif;
+
+ 
+ }
+.play-instant-content h1 span{
+
+    font-family: var(--font-family);
+     text-transform: uppercase;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+}
+.play-instant-img{
+    width: 50%;
+
+}
+.play-instant-limg img{
+   width: 80%;
+   
+
+}
+.play-instant-simg{
+    position: relative;
+    top:-80px;
+    left: -60px;
+
+}
+.play-instant-simg img{
+    width: 30%;
+
+}
+/*------------------------------play-instant-section ended --------------------------*/
+/*------------------------------game-types-section started --------------------------*/
+
+.game-types{
+    width: 243px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+}
