@@ -364,10 +364,38 @@ header{
 }
 /*------------------------------play-instant-section ended --------------------------*/
 /*------------------------------game-types-section started --------------------------*/
+.game-types-section{
+   background-color:rgba(255, 66, 165, 0.03) ; 
+   width:100%;
+   display: flex;
+   padding-top: 20px;
+   padding-bottom: 20px; 
+    justify-content: center;
+    align-items: center;
+}
+.game-types-container{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
+}
 .game-types{
-    width: 243px;
-height: 80px;
-border-radius: 50px;
-background: #FFF;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #FFF;
+     margin:10px 15px;
+     box-sizing: border-box;
+     transition: .3s ease-out;
+}
+.game-types img{
+    width: 25%;
+}
+.game-types:hover{
+    border: 3px solid var(--secondary-color);
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width:576px){
+@media screen and (min-width:576px) and (max-width:920px){
     
     header{
         height: max-content;
@@ -47,15 +47,18 @@
         
     }
     .games-img-box{
-       
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        position: relative;
         
     }
-  
+    .overlay {
+        position: absolute;
+        left: 39px;
+    }
     .play-instant-section{
         width:100%;
         display: flex;
