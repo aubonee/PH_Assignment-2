@@ -101,18 +101,19 @@ header{
 }
 .banner-content-area{
     width:50%;
-    display: flex;
-    align-items:center;
-    justify-content: center;
     background-image: url(images/Group\ 14.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
 
 }
 .banner-content{
-    width:50%;
+    width:80%;
    height: 80svh;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -120,10 +121,8 @@ header{
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
-    text-align: left;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    padding: 0px auto 0px auto;
+    
+  
     
 
 }
@@ -151,7 +150,7 @@ header{
 .banner-content p{
     /* margin:0px;
     padding: 0px; */
-    font-family: Work Sans;
+    font-family: var(--font-family);
     font-size: 18px;
     text-align: left;
     padding: 0px;
