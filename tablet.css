@@ -157,11 +157,18 @@
         width:100%;
 
     }
+    
     .play-instant-simg img{
         width:40%;
         margin-right: 20px;
        
         
+    }
+    .play-instant-simg{
+        position: relative;
+        top:-100px;
+        left: -60px;
+    
     }
     .game-types-section{
         width:100%;

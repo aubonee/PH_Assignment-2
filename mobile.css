@@ -34,9 +34,7 @@
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items:end;
-     
-       
+        align-items:end; 
     }
     .banner-img img{
         width: 80%;
@@ -98,9 +96,7 @@
 
     .online-games-img-section{
         flex-direction: column;
-        width:80%;
-       
-        
+        width:80%;   
     }
     .games-img-box{
         width: 300px;
@@ -110,16 +106,6 @@
         align-items: center;
 
     }
-    /* .games-img-box{
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        
-    } */
-  
     .play-instant-section{
         width:100%;
         display: flex;
@@ -161,6 +147,12 @@
         margin-right: 20px;
        
         
+    }
+    .play-instant-simg{
+        position: relative;
+        top:-100px;
+        left: -60px;
+    
     }
     .game-types-section{
         width:100%;
