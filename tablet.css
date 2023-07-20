@@ -3,7 +3,7 @@
     header{
         height: max-content;
     }
-    /* }.navbar{
+    .navbar{
         flex-direction: column;
         height: max-content;
     }
@@ -15,7 +15,7 @@
     }
     .nav-items ul li{
         margin: 20px;
-    } */
+    }
   
     .banner{
         flex-direction: column-reverse;
@@ -34,15 +34,22 @@
     }
     .banner-content-area{
         width:100%;
+
     
     }
     .banner-content{
         
-        width:90%;
-        margin: 20px auto;
-        height:100%;
-        padding: 20px auto;
+    width:60%;
+    align-items:flex-start;
+    justify-content: center;
+    height:100%;
+    padding: 20px 0;
+       
     }
+    .banner-content h3{
+        margin-top: 0px;
+    }
+ 
     
     .we-are-gamer{
         background-color: transparent;
@@ -71,12 +78,18 @@
         
       
     }
+    .online-games{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     .online-games-img-section{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
-       width: 100%;
+       width: 80%;
        justify-content: center;
        align-items: center;
         
@@ -161,7 +174,7 @@
     .game-types{
        padding: 10px 5px;
         margin:10px 5px;
-        min-width: 120px;
+        min-width: 130px;
       
     }
     .game-types img{
@@ -173,14 +186,16 @@
     }
 
 
-    .footer-item{
+      .footer-item{
         width: 80%;
         display:grid;
         grid-template-columns: repeat(3,1fr);
 
     }
     .social-icon {
-        width: 45%;
+        width: 50%;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
     }
     .social-icon svg{
         max-width: 40px;
